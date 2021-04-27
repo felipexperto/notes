@@ -1,5 +1,9 @@
 {
   "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+  },
   "editor.detectIndentation": false,
   "editor.fontFamily": "'FiraCode-Retina', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
@@ -17,4 +21,5 @@
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDragAndDrop": false,
 }
