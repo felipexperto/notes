@@ -3,6 +3,7 @@
 [alias]
 	st = status
 	unstage = reset HEAD .
+	cf = diff-tree --no-commit-id --name-only -r
 	ck = checkout
 	lgp = log --pretty=format:\"%h - %an, %ar : %s\"
 	lgo = log --oneline
