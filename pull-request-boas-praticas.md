@@ -20,7 +20,7 @@ A abertura de Pull Request pode parecer uma ação sem tanta importância quanto
     * As que fazem parte da equipe responsável pela aplicação
     * As que têm relação com o contexto da alteração, normalmente membros da sua equipe
 
-### Exemplo de preenchimento de uma [Pull Request](https://bitbucket.org/vagas/empresas-service/pull-requests/120/feature-endpoint-divisao) ###
+### Exemplo de preenchimento de uma Pull Request ###
 
 **Motivação**:
 
@@ -59,7 +59,7 @@ O changelog deve possuir as alterações que estão sendo implemendas nessa nova
 **Exemplo**:
 ```
 # 1.1.0
-  * [Feature] Minha funcionalidade incrÃ­vel
+  * [Feature] Minha funcionalidade incrível
 ```
 
 ### Style coding ###
