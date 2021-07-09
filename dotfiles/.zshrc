@@ -105,3 +105,10 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias open="xdg-open"
+
+alias copy='xclip -sel clip'
+alias ls.='ls -d .* --color=auto'
+
+alias ??="~/sos/project-helper.sh"
+
+
