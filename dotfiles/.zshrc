@@ -100,15 +100,15 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-alias zshconfig="vim ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias open="xdg-open"
 
+# ZSHCONFIG
+alias zshconfig="vim ~/.zshrc"
+
+# UBUNTU
+alias open="xdg-open"
 alias copy='xclip -sel clip'
 alias ls.='ls -d .* --color=auto'
+alias ubuntu-version="lsb_release -a"
 
+# MISC
 alias ??="~/sos/project-helper.sh"
-
-
