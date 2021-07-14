@@ -103,6 +103,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # ZSHCONFIG
 alias zshconfig="vim ~/.zshrc"
+alias aliases="cat ~/.zshrc | grep ^alias"
 
 # UBUNTU
 alias open="xdg-open"
